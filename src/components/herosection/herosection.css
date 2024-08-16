@@ -1,0 +1,102 @@
+.hero-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .slick-slider {
+    overflow: hidden;
+  }
+  
+  .hero-background {
+    position: relative;
+  }
+  
+  .slide {
+    position: relative;
+    height: 600px; /* Adjust the height to fit your design */
+  }
+  
+  .slide-image {
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .content-container {
+    max-width: 800px;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    font-family: 'Brush Script MT', cursive;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .search-input {
+    padding: 15px 20px;
+    border-radius: 30px 0 0 30px;
+    border: none;
+    width: 400px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 15px 30px;
+    border-radius: 0 30px 30px 0;
+    border: none;
+    background-color: #FF7F00;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .category-container {
+    position: absolute;
+    bottom: -30px; /* Adjust this value to extend outside the slider */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 12px 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-item {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-item:hover {
+    background: #f0f0f0;
+    cursor: pointer;
+  }
+  
