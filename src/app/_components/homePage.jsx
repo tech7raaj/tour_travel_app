@@ -1,5 +1,6 @@
+import ExploreHolidays from '@/components/exploreholidays/ExploreHolidays'
 import HeroSection from '@/components/herosection/HeroSection'
-import MultivisitLocation from '@/components/multivisitLocation'
+import MultivisitLocation from '@/components/mostVisit/multivisitLocation'
 import React from 'react'
 
 function HomePage() {
@@ -7,6 +8,7 @@ function HomePage() {
      <>
      <HeroSection/>
      <MultivisitLocation/>
+     <ExploreHolidays/>
      </>
   )
 }

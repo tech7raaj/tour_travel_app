@@ -32,23 +32,22 @@ function HeroSection() {
             <div 
               className="slide-image" 
               style={{ backgroundImage: `url(${image})` }}
-            >
-              <div className="content-container">
-                <h1 className="hero-title">Himachal Tour Package</h1>
-                <p className="hero-subtitle">Where Every Moment Becomes An Adventure!</p>
-                <div className="search-container">
-                  <input 
-                    type="text" 
-                    className="search-input" 
-                    placeholder="Where Would You Like To Go?" 
-                  />
-                  <button className="search-button">Uncover</button>
-                </div>
-              </div>
-            </div>
+            />
           </div>
         ))}
       </Slider>
+      <div className="content-container">
+        <h1 className="hero-title">Himachal Tour Package</h1>
+        <p className="hero-subtitle">Where Every Moment Becomes An Adventure!</p>
+        <div className="search-container">
+          <input 
+            type="text" 
+            className="search-input" 
+            placeholder="Where Would You Like To Go?" 
+          />
+          <button className="search-button">Uncover</button>
+        </div>
+      </div>
       <div className="category-container">
         <div className="category-item">Adventure</div>
         <div className="category-item">Honeymoon</div>

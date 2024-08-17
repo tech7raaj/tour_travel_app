@@ -1,0 +1,79 @@
+.explore-holidays-container {
+    display: flex;
+    justify-content: center;
+    background-color: #fef8ec;
+    padding: 20px 0;
+  }
+  
+  .explore-holidays-content {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .explore-holidays-left-section {
+    flex: 1;
+    padding-right: 20px;
+    color: #333;
+  }
+  
+  .explore-holidays-highlight {
+    color: #ff9601;
+  }
+  
+  .explore-holidays-right-section {
+    flex: 2;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .explore-holidays-cards {
+    display: flex;
+    gap: 15px;
+    animation: slide 10s linear infinite;
+  }
+  
+  .explore-holidays-card {
+    flex: 0 0 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .explore-holidays-card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 2px solid #ff9601;
+  }
+  
+  .explore-holidays-button {
+    background-color: #ff9601;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .explore-holidays-button:hover {
+    background-color: #e67e00;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

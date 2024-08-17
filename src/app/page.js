@@ -1,4 +1,4 @@
-import MultivisitLocation from '@/components/multivisitLocation'
+import MultivisitLocation from '@/components/mostVisit/multivisitLocation'
 import React from 'react'
 import HomePage from './_components/homePage'
 
