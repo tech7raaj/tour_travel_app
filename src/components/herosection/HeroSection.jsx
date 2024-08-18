@@ -36,6 +36,7 @@ function HeroSection() {
           </div>
         ))}
       </Slider>
+      <div className="hero-container-inner">
       <div className="content-container">
         <h1 className="hero-title">Himachal Tour Package</h1>
         <p className="hero-subtitle">Where Every Moment Becomes An Adventure!</p>
@@ -55,6 +56,7 @@ function HeroSection() {
         <div className="category-item">Family</div>
         <div className="category-item">Solo</div>
         <div className="category-item">Pilgrimage</div>
+      </div>
       </div>
     </div>
   );

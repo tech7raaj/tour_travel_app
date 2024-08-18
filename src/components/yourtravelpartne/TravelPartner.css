@@ -1,0 +1,73 @@
+/* TravelPartner.css */
+.travel-partner-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.travel-partner-title {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.travel-partner-title span {
+  color: #FF8C00; /* Orange color for 'Travel' */
+}
+
+.travel-partner-content {
+  display: flex;
+  gap: 20px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #D3E9FF, #FFECB5); /* Gradient background */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.section-content {
+  flex: 1;
+  text-align: left;
+}
+
+.section-title {
+  font-size: 18px;
+  color: #FF8C00; /* Orange color for titles */
+  margin-bottom: 15px;
+}
+
+.section-points {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section-points li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.section-points .icon {
+  margin-right: 10px;
+  color: #FF8C00; /* Same orange for icons */
+}
+
+.section-image {
+  flex: 0 0 150px; /* Adjust as needed for image size */
+  margin-left: 20px;
+}
+
+.section-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

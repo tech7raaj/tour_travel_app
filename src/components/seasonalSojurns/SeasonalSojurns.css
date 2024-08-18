@@ -1,0 +1,64 @@
+.seasonal-sojurns-container {
+    width: 100%;
+  }
+  .seasonal-sojurns-inner{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .cards-container{
+    display: flex;
+    height: 600px;
+    gap: 10px;
+  }
+  .left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 30%;
+    gap: 10px;
+  }
+  
+  .center-column {
+    flex-basis: 40%;
+  }
+  
+  .destination-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+  
+  .destination-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .destination-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: left;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .destination-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .destination-info p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+  }
+  
