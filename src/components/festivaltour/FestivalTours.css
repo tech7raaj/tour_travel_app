@@ -1,0 +1,74 @@
+.festival-tours-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .festival-tours-inner {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 600px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    padding: 40px 20px;
+    border-radius: 20px;
+  }
+  
+  .festival-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .festival-slide {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .festival-image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .festival-content {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: white;
+    text-align: left;
+  }
+  
+  .festival-button {
+    background-color: #ff7e1b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .festival-slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #ff7e1b;
+  }
+  
