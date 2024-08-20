@@ -37,9 +37,12 @@ function MostVisit() {
     <div className="section-outer section_outer_wrapper">
       <div className="section-inner section_inner_wrapper">
         <div className="section-wrapper">
-          <h1 className="section-title">Must-Visit <span className="highlight">Locations</span></h1>
-          <p className="section-subtitle">Explore the most exciting and essential destinations that should be on every traveler’s list.</p>
+          <div className="section_handler">
 
+         
+          <h1 className="section-heading">Must-Visit <span className="highlight">Locations</span></h1>
+          <p className="section-paragraph">Explore the most exciting and essential destinations that should be on every traveler’s list.</p>
+          </div>
           <div className="location-grid">
             {locations.map((location) => (
               <div key={location.id} className="location-card">

@@ -49,6 +49,18 @@ body{
      
 }
 
+.section-heading{
+    @extend %section-heading-font;
+}
+
+.section-paragraph {
+   @extend %section-sub-heading-font-size;
+}
+
+.section_handler {
+    padding-bottom: 30px;
+}
+
 
 
 
