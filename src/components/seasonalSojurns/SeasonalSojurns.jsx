@@ -13,8 +13,8 @@ const destinations = [
 
 function SeasonalSojurns() {
   return (
-    <div className="seasonal-sojurns-container">
-        <div className="seasonal-sojurns-inner">
+    <div className="seasonal-sojurns-container section_outer_wrapper">
+        <div className="seasonal-sojurns-inner section_inner_wrapper">
          <h2>Seasonal <span>Sojurns</span></h2>
          <p>Top August Escapes Perfect Long-Weekend Getaways!</p>
          <div className="cards-container">

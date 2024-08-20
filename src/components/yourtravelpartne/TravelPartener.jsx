@@ -27,7 +27,7 @@ const refunds = [
 
 function TravelPartner() {
   return (
-    <div className="travel-partner-container">
+    <div className="travel-partner-container section_outer_wrapper">
       <h2 className="travel-partner-title">Your Perfect <span>Travel</span> Partner</h2>
       <div className="travel-partner-content">
         <div className="section refunds-section">

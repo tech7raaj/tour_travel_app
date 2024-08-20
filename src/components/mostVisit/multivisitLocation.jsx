@@ -34,8 +34,8 @@ const locations = [
 
 function MostVisit() {
   return (
-    <div className="section-outer">
-      <div className="section-inner">
+    <div className="section-outer section_outer_wrapper">
+      <div className="section-inner section_inner_wrapper">
         <div className="section-wrapper">
           <h1 className="section-title">Must-Visit <span className="highlight">Locations</span></h1>
           <p className="section-subtitle">Explore the most exciting and essential destinations that should be on every traveler’s list.</p>

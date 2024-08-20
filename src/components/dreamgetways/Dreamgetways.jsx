@@ -72,8 +72,8 @@ function Dreamgetways() {
   };
 
   return (
-    <div className="dreamgetways-container">
-        <div className="dreamgetways-inner">
+    <div className="dreamgetways-container section_outer_wrapper">
+        <div className="dreamgetways-inner section_innser_wrapper">
       <h2 className="section-title">Curated Dream <span className="highlight">Getaways</span></h2>
       <p className="section-subtitle">Top August Escapes Perfect Long-Weekend Getaways!</p>
 

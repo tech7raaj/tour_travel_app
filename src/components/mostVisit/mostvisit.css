@@ -29,26 +29,11 @@
     margin-bottom: 40px;
   }
   
-  .location-grid {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    row-gap: 20px;
-  }
   
-  .location-card {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    text-align: center;
-    padding: 20px 20px 10px 20px;
-    transition: transform 0.3s;
-  }
   
-  .location-card:hover {
-    transform: translateY(-5px);
-  }
+   
+  
+  
   
   .location-image {
     max-width: 180px;
@@ -58,9 +43,5 @@
     height: 160px;
   }
   
-  .location-name {
-    font-size: 16px;
-    font-weight: 600;
-    color: #333;
-  }
+  
   

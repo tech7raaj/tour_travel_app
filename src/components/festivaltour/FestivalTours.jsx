@@ -29,8 +29,8 @@ function FestivalTours() {
   }, [slides.length]);
 
   return (
-    <div className="festival-tours-container">
-      <div className="festival-tours-inner">
+    <div className="festival-tours-container section_outer_wrapper">
+      <div className="festival-tours-inner section_inner_wrapper">
         <h2>Festival Tour Packages Embrace The Spirit Of Festivals</h2>
         <p>Explore A Range Of Travel Themes And Find Your Perfect Holiday Match</p>
         

@@ -1,0 +1,7 @@
+
+@mixin grid-property($display,$gridcolumns,$gap){
+    display: $display;
+    grid-template-columns: $gridcolumns;
+    gap: $gap;
+
+}

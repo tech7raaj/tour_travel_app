@@ -1,0 +1,56 @@
+@import "variables";
+@import "extends";
+@import "mixins";
+
+@font-face {
+    font-family: 'popins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+  }
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: $font-family;
+}  
+
+
+.section_outer_wrapper{
+    @extend %section-max-width;
+}
+
+.location-grid {
+    @include grid-property(grid,repeat(5, 1fr),20px);
+}
+
+.location-card{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+    img {
+        width: 100%;
+        height: 200px;
+        max-width: 100%;
+        padding-bottom: 12px;
+        border-radius: 12px;
+        
+    }h2 {
+        margin: 0px;
+        @extend %section-sub-heading-font-size;
+    }  
+}
+
+.location-card:hover{
+ 
+        transform: translateY(-5px);
+     
+}
+
+
+
+
+
+

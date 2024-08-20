@@ -27,8 +27,8 @@ const ExploreHolidays = () => {
   ];
 
   return (
-    <div className="explore-holidays-container">
-      <div className="explore-holidays-content">
+    <div className="explore-holidays-container section_outer_wrapper">
+      <div className="explore-holidays-content section_inner_wrapper">
         <div className="explore-holidays-left-section">
           <h2>
             Explore <span className="explore-holidays-highlight">HOLIDAYS</span>

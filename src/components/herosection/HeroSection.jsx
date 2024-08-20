@@ -25,7 +25,7 @@ function HeroSection() {
   };
 
   return (
-    <div className="hero-container">
+    <div className="hero-container section_outer_wrapper">
       <Slider {...settings} className="hero-background">
         {images.map((image, index) => (
           <div key={index} className="slide">
@@ -36,7 +36,7 @@ function HeroSection() {
           </div>
         ))}
       </Slider>
-      <div className="hero-container-inner">
+      <div className="hero-container-inner ">
       <div className="content-container">
         <h1 className="hero-title">Himachal Tour Package</h1>
         <p className="hero-subtitle">Where Every Moment Becomes An Adventure!</p>
