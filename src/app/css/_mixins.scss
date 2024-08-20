@@ -5,3 +5,7 @@
     gap: $gap;
 
 }
+@mixin section-wrapper($padding,$background:#fff){
+    background-color: $background;
+    padding: $padding;
+}

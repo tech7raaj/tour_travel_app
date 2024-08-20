@@ -1,17 +1,11 @@
-.section-outer {
-    padding: 50px 20px;
-    background-color: #f9f9f9;
-    text-align: left;
-  }
+
   
   .section-inner {
     max-width: 1440px;
     margin: 0 auto;
   }
   
-  .section-wrapper {
-    padding: 20px;
-  }
+ 
   
   .section-title {
     font-size: 32px;
@@ -20,7 +14,7 @@
   }
   
   .highlight {
-    color: #FF7F00; /* Highlight color */
+    color: #FF7F00; 
   }
   
   .section-subtitle {

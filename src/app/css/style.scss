@@ -14,7 +14,7 @@ body{
 }  
 
 
-.section_outer_wrapper{
+.section_inner_wrapper{
     @extend %section-max-width;
 }
 
@@ -59,6 +59,10 @@ body{
 
 .section_handler {
     padding-bottom: 30px;
+}
+
+.section_outer_wrapper{
+    @include section-wrapper(0px 0px 50px 0px,#fff);
 }
 
 
